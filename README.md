@@ -4,15 +4,17 @@ This project is a basic version of deFi gaming ecosystem that is made to get dep
 I have created my own EVM Subnet (custom) on Avalanche network using the Avalanche CLI and following the steps given below:
 1) To start first install the Avalanche CLI tool and setup the necessary environment. It is supported in MacOS and Linux only but we can also use WSL2 in Windows.
 2) run the command in the Ubuntu terminal: avalanche subnet create DragonNest
-3) Choose the chainID & token symbol. In my case --> (chainID: 77888 & Token Symbol: DRAG)
+3) Choose the chainID & token symbol. In my case --> (chainID: 12121 & Token Symbol: AN)
 4) run the command: avalanche deploy DragonNest
 5) After deploying, add the network to your wallet (Metamask) through RPC URL & chainID.
 6) Import the account using private key in the Metamask.
 7) Now, we can interact with the game deployed in our own subnet using Remix IDE and Metamask wallet.
    
-![image](https://github.com/user-attachments/assets/61df29c5-4c92-4d66-a294-7c82d01e05fa)
-![image](https://github.com/user-attachments/assets/7bd0d4cc-74f1-4a98-a992-c4edbf32cae5)
-![image](https://github.com/user-attachments/assets/a1b1dd11-0856-4e37-b34f-9d985fd88ca5)
+![image](https://github.com/user-attachments/assets/a3bd8f13-71e6-4812-976f-113d42c15ec7)
+![image](https://github.com/user-attachments/assets/aec0f67c-462f-49bf-8891-ae06dafc6c4a)
+
+![image](https://github.com/user-attachments/assets/2863094a-1871-42fa-9e63-87b9b8226e27)
+
 
 # Description
 This project consists 2 solidity smart contract files:
@@ -21,7 +23,7 @@ It is my own version of ERC20 token --> 'myERC20_token.sol' , extended from stan
 https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/token/ERC20/ERC20.sol
 This token acts as the currency for my gaming ecosystem. Players can bet or stake these coins and win rewards or more coins.
 In future development, these coins will also be used to redeem the in-game NFTs and many more.
-In my version: the token name is 'Elixir Coin' & symbol is 'EC'.
+In my version: the token name is 'AN Token' & symbol is 'AN'.
 The functions: mint_Elixir() --> used to mint elixir tokens and can only be called by owner.
 transfer_ElxirFrom() --> used to transfer tokens between any 2 player's accounts.
 burn_Elixir() --> used to burn tokens and remove them from overall network.
@@ -62,6 +64,6 @@ Playing the game by staking the EC tokens and checking the balance to confirm wi
 ![image](https://github.com/user-attachments/assets/7267c5e1-6e0a-4d26-ba12-817e3a19c485)
 
 # Author 
-Suryansh Mishra @suryanshmishra0704@gmail.com
+Anisha Kumari @anishakumarixib@gmail.com
 # License
 This project is licensed under the Apache License 2.0 - see the LICENSE.md file for details.
